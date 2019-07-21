@@ -1,0 +1,7 @@
+spring.profiles.active=production
+
+server.port=8088
+
+
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
