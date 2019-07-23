@@ -17,9 +17,9 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 		// super.configure(http);
 		// 지원 서버 접근 권한 설정
 		http
-				.authorizeRequests()
-				.antMatchers("/hello*")
-				.access("#oauth2.hasScope('MALL_USER')");
+			.authorizeRequests()
+			.antMatchers("/hello*")
+			.access("#oauth2.hasScope('MALL_USER')");
 		
 		
 //		http

@@ -1,5 +1,5 @@
 server:
-       port: 8888
+       port: 8808
        servlet:
                context-path: /v1
 
@@ -23,7 +23,7 @@ spring:
          
 security:
          user:
-              name: test
+              name: pjmall
               password: 1234
          oauth2:     
                 client:
