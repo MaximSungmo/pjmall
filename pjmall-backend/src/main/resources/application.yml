@@ -21,3 +21,11 @@ spring:
            auto: true
        aop-proxy-target-class: true                          
          
+security:
+         user:
+              name: test
+              password: 1234
+         oauth2:     
+                client:
+                        client-id: pjmall
+                        client-secret: 1234
