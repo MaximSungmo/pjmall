@@ -57,6 +57,24 @@
 			<artifactId>hibernate-validator</artifactId>
 		</dependency>
 
+		<!-- Spring jdbc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+
+		<!-- Common DBCP -->
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+		</dependency>
+		
+		<!-- Mariadb Java Client -->
+		<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+		</dependency>
+				
 		<!-- Spring Test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

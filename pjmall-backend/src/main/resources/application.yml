@@ -1,5 +1,5 @@
 server:
-       port: 8808
+       port: 8889
        servlet:
                context-path: /v1
 
@@ -20,12 +20,18 @@ spring:
        aop:
            auto: true
        aop-proxy-target-class: true                          
+
+       datasource:
+           driver-class-name: org.mariadb.jdbc.Driver
+           url: jdbc:mariadb://192.168.1.49:3307/webdb
+           username: webdb
+           password: webdb				
          
 security:
          user:
-              name: pjmall
-              password: 1234
-         oauth2:     
-                client:
-                        client-id: pjmall
-                        client-secret: 1234
+              name: user1
+              password: 5678
+#         oauth2:     
+#                client:
+#                        client-id: pjmall
+#                        client-secret: 1234
